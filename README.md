@@ -1,6 +1,6 @@
-# tksupercollider.github.io
+# toplapjp.github.io
 
-development repository for : [https://tksupercollider.github.io/](https://tksupercollider.github.io/)
+development repository for : [https://toplap.jp/](https:/toplap.jp/)
 
 ## build
 
