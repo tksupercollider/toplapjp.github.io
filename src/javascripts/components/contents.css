@@ -1,0 +1,125 @@
+.contents {
+  color: #aaaaaa;
+}
+
+.contents .title {
+  font-size: 14px;
+}
+
+.contents .title a {
+  display: inline-block;
+  color: #7a6ee6;
+}
+
+.contents h2 {
+  font-size: 14px;
+}
+
+.contents .date {
+  display: inline-block;
+}
+
+.contents .date h3 {
+  color: #ffff88;
+  font-size: 14px;
+}
+
+.contents .date.hiding {
+  display: none;
+}
+
+.contents .date ::selection {
+  background:#b9bfff;
+}
+
+.contents .content {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contents .content img {
+  max-width: 100%;
+}
+
+.contents .content p {
+  /*color: #00b500;*/
+  line-height: 28px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.contents .content h1 {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.contents .content a h2 {
+  color: #9ab1af;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.contents .content h2 {
+  color: #b9bfff;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.contents .content h3 {
+  color: #b9bfff;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+  }
+
+.contents .content a h3 {
+  color: #b9bfff;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.contents .title a h1 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.contents .title h2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.contents .title h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.contents .content img {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.contents .content ol {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.contents .content li {
+  line-height: 24px;
+}
+
+
+.contents .content a:link {
+ color: #bc5ab2; 
+ text-decoration: none;
+}
+.contents .content a:visited { color: #bc5ab2; }
+.contents .content a:hover { color: #551c24; }
+.contents .content a:active { color: #bc5ab2; }

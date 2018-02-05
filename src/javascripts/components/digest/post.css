@@ -1,0 +1,118 @@
+
+.post {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.post .left {
+  float: left;
+  display: inline-block;
+  max-width: 140px;
+  width: 15%;
+  text-align: left;
+}
+
+.post .left h4 {
+  color: #9ab1af;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.post .left img {
+  margin-top: 8px;
+  width: 120px;
+  border-radius: 60px;
+}
+
+.post .right {
+  display: inline-block;
+  width: 85%;
+  max-width: 1320px;
+}
+
+.post .right a {
+  color: #7a6ee6;
+}
+
+.post .right h3 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+
+/*.post h3 a {
+  font-size: 25px;
+}*/
+
+.post .date {
+  line-height: 2px;
+  font-size: 13px;
+}
+
+.post p {
+  line-height: 26px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .post .left {
+    display: none;
+  }
+
+  .post .left img {
+  }
+
+  .post .right {
+    margin-left: 0;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+
+  .post {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .post .left {
+    float: none;
+    display: block;
+    width: 120px;
+    text-align: center;
+  }
+
+
+  /* 
+    TODO : hover no color;
+  .post .left a:hover {
+    color:#E48E00;
+  }*/
+
+  .post .left img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+  }
+
+  .post .right {
+    text-align: left;
+    margin-top: 8px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .post .right h3 {
+    color: #9ab1af;
+    text-align: center;
+  }
+
+  .post .right .date {
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,45 @@
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.header .title {
+  font-size: 14px;
+}
+
+.header .title h1 {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.header ul li a {
+  color: #b9bfff;
+}
+
+.header ul {
+  padding-left: 0;
+}
+
+.header ul li {
+  display: inline-block;
+  padding: 0 12px 0 0;
+}
+
+
+.header .divider {
+  /*width: 980px;*/
+  height: 18px;
+  color: #aaaaaa;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    margin-top: 10px;
+  }
+}

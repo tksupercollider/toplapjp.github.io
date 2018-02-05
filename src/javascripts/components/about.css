@@ -1,0 +1,81 @@
+.about p {
+  color: #d4d4d4;
+  line-height: 28px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.about h1 {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.about a h2 {
+  color: #9ab1af;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.about h2 {
+  color: #00b500;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.about h3 {
+  color: #7a6ee6;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+  }
+
+.about a h3 {
+  color: #b9bfff;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.about .title a h1 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.about .title h2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.about .title h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.about img {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.about ol {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.about li {
+  line-height: 24px;
+}
+
+
+.about a:link {
+ color: #bc5ab2; 
+ text-decoration: none;
+}
+.about a:visited { color: #bc5ab2; }
+.about a:hover { color: #551c24; }
+.about a:active { color: #bc5ab2; }

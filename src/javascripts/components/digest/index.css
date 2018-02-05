@@ -1,0 +1,11 @@
+.digest {
+  color: #d4d4d4;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .digest h3 {
+    display: none;
+  }
+}
