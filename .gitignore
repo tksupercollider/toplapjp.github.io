@@ -1,0 +1,7 @@
+.tmp
+node_modules
+.sass-cache/
+npm-debug.log
+deploy.sh
+.DS_Store
+vendor/bundle/
