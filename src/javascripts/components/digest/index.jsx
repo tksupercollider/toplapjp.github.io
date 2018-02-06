@@ -54,10 +54,11 @@ class Digest extends Component {
   }
 
   getPosts(data) {
+    this.post_rows  = Array(data.length)
     const all = data.map((item, i) => {
         return this.mapItem(item, i)
           .then((res) => {
-            this.post_rows.push(res);
+            this.post_rows[i] = res;
           });
         });
     return Promise.all(all);

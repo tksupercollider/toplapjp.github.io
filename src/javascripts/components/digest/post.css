@@ -34,12 +34,17 @@
   color: #7a6ee6;
 }
 
-.post .right h3 {
+.post .right h2 {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 8px;
 }
 
+.post .right h3 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
 
 /*.post h3 a {
   font-size: 25px;

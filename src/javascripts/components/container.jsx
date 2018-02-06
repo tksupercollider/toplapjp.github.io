@@ -45,13 +45,13 @@ class Container extends Component {
 
   assigin(props_) {
     const curennt_props = props_ || this.props;
-    let new_rows = [];
+    let new_rows = new Array(curennt_props.currentData.length);
     var all;
     if (this.props.multiple) {
       all = curennt_props.currentData.map((item, i) => {
         return this.mapItem(item, i)
           .then((res) => {
-            new_rows.push(res);
+            new_rows[i] = res;
           });
       });
     } else {

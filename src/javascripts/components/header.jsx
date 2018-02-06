@@ -38,7 +38,7 @@ class Header extends Component {
               <Link to="/archive">[Archive]</Link>
             </li>
             <li>
-              <Link to="https://twitter.com/tksupercollider" target="_blank">[Twitter]</Link>
+              <Link to="https://twitter.com/toplapjp" target="_blank">[Twitter]</Link>
             </li>
             <li>
               <Link to="https://github.com/tksupercollider" target="_blank">[Github]</Link>

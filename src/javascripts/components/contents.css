@@ -8,7 +8,7 @@
 
 .contents .title a {
   display: inline-block;
-  color: #7a6ee6;
+  /*color: #7a6ee6;*/
 }
 
 .contents h2 {
@@ -20,7 +20,7 @@
 }
 
 .contents .date h3 {
-  color: #ffff88;
+  /*color: #ffff88;*/
   font-size: 14px;
 }
 
@@ -56,28 +56,35 @@
 }
 
 .contents .content a h2 {
-  color: #9ab1af;
+  /*color: #9ab1af;*/
   margin-bottom: 8px;
   margin-top: 8px;
   font-size: 14px;
 }
 
 .contents .content h2 {
-  color: #b9bfff;
+  /*color: #b9bfff;*/
   margin-bottom: 8px;
   margin-top: 8px;
   font-size: 14px;
 }
 
 .contents .content h3 {
-  color: #b9bfff;
+  /*color: #b9bfff;*/
   margin-bottom: 8px;
   margin-top: 8px;
   font-size: 14px;
   }
 
 .contents .content a h3 {
-  color: #b9bfff;
+  /*color: #b9bfff;*/
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.contents .content h4 {
+  /*color: #b9bfff;*/
   margin-bottom: 8px;
   margin-top: 8px;
   font-size: 14px;
@@ -120,6 +127,11 @@
  color: #bc5ab2; 
  text-decoration: none;
 }
+
+.contents .content pre code {
+  padding: 14px 14px 14px 14px; 
+}
+
 .contents .content a:visited { color: #bc5ab2; }
 .contents .content a:hover { color: #551c24; }
 .contents .content a:active { color: #bc5ab2; }

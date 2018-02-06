@@ -29,6 +29,7 @@ class Constents extends Component {
 
         <div className={styles.content}>
           <MD
+            className={styles.content}
             source={this.props.body}
             escapeHtml={false}
             renderers={{

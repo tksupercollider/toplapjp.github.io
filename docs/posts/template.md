@@ -21,8 +21,21 @@ categories:
 
 ```
 テンプレートcode
+
+import TemplateModule
+
+class TemplateClass{
+  void TemplateClass() { }
+
+  int doSomething() {
+    return 0;
+  }
+}
+
+A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code A Long Code 
+
 ```
 
 [You can use numbers for reference-style link definitions][1]
 
-[1]: http://moxus.org
+[1]: http://toplap.jp
