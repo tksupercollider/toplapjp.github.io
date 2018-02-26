@@ -12,7 +12,7 @@ class About extends Component {
         <p>TOPLAP Japan.</p>
         <h1>find us:</h1>
         <h2><Link to="https://tksc.connpass.com" target="_blank">Connpass.com's group page</Link></h2>
-        <h2><Link to="https://github.com/tksupercollide" target="_blank">Account on GitHub.com</Link></h2>
+        <h2><Link to="https://github.com/tksupercollider" target="_blank">Account on GitHub.com</Link></h2>
         <h2><Link to="https://twitter.com/toplapjp" target="_blank">Twitter account</Link></h2>
       </div>
     )
