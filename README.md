@@ -1,6 +1,6 @@
 # toplapjp.github.io
 
-development repository for : [https://toplap.jp/](https:/toplap.jp/)
+development repository for : [http://toplap.jp/](http://toplap.jp/)
 
 ## build
 
