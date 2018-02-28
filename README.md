@@ -16,7 +16,7 @@ then build as production:
 
 ```yarn run production```
 
-then: commit new app.js / .md etc.
+then: commit new app.js / .md and doc/ directory.
 
 ```git add -A```
 
@@ -24,5 +24,4 @@ then: commit new app.js / .md etc.
 
 then push to ```main``` branch
 
-```yarn run deploy```
-
+```doc/``` directory will open at github pages.
