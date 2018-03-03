@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const copyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -10,7 +11,8 @@ module.exports = {
   },
   output: {
     path: __dirname + '/docs',
-    filename: 'javascripts/[name].js'
+    filename: 'javascripts/[name]-[hash:8].js',
+    publicPath: '/'
   },
   resolve: {
     alias: {
@@ -20,17 +22,19 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.jsx$/,
+        test: /\.html$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        loader: 'html-loader',
       },
       {
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
           presets: [
             ["env", { "modules": false }],
-            'react'
+            'react',
+            'es2015'
           ]
         }
       }, 
@@ -91,6 +95,10 @@ module.exports = {
       PUBLIC_URL: PRODUCTION ? JSON.stringify('https:/tksupercollider.github.io/') : JSON.stringify('/'),
       ASSET_URL: PRODUCTION ? JSON.stringify('https://raw.githubusercontent.com/tksupercollider/tksupercollider.github.io/master/') : JSON.stringify('/')
     }),
+    new HtmlWebpackPlugin({
+      inject: 'body',
+      template: './src/html/index.html'
+    }),
     new ExtractTextPlugin("[name].css"),
     new webpack.ProvidePlugin({
       "$": "jquery",
@@ -98,7 +106,7 @@ module.exports = {
     }),
     new copyWebpackPlugin(
       [
-        { from: './src/', to: './' }
+        { from: './src/', to: './', ignore: ['index.html'] }
       ],
       {
         ignore:
