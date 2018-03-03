@@ -92,8 +92,8 @@ module.exports = {
 
   plugins: [
     new webpack.DefinePlugin({
-      PUBLIC_URL: PRODUCTION ? JSON.stringify('https:/tksupercollider.github.io/') : JSON.stringify('/'),
-      ASSET_URL: PRODUCTION ? JSON.stringify('https://raw.githubusercontent.com/tksupercollider/tksupercollider.github.io/master/') : JSON.stringify('/')
+      PUBLIC_URL: PRODUCTION ? JSON.stringify('http://toplap.jp/') : JSON.stringify('/'),
+      ASSET_URL: PRODUCTION ? JSON.stringify('https://raw.githubusercontent.com/tksupercollider/toplapjp.github.io/master/') : JSON.stringify('/')
     }),
     new HtmlWebpackPlugin({
       inject: 'body',
