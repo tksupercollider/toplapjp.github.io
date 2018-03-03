@@ -5,7 +5,7 @@ class PostLoader {
   constructor(path) {
     // console.log(asset_url);
     return new Promise((resolve) => {
-      $.get(asset_url + 'src/posts/' + path, (result) => {
+      $.get(asset_url + 'posts/' + path, (result) => {
         var res;
         try {
           res = yaml(result);

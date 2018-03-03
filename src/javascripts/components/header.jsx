@@ -43,6 +43,9 @@ class Header extends Component {
             <li>
               <Link to="https://github.com/tksupercollider" target="_blank">[Github]</Link>
             </li>
+            <li>
+              <Link to="http://algorave.tokyo" target="_blank">[Algorave Tokyo]</Link>
+            </li>
           </ul>
         </div>
         <div className={styles.divider}>
