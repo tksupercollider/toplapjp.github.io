@@ -1,5 +1,5 @@
 .contents {
-  color: #aaaaaa;
+  color: #cccccc;
 }
 
 .contents .title {
@@ -124,7 +124,7 @@
 
 
 .contents .content a:link {
- color: #bc5ab2; 
+ color: #ffffff; 
  text-decoration: none;
 }
 
@@ -132,6 +132,6 @@
   padding: 14px 14px 14px 14px; 
 }
 
-.contents .content a:visited { color: #bc5ab2; }
-.contents .content a:hover { color: #551c24; }
-.contents .content a:active { color: #bc5ab2; }
+.contents .content a:visited { color: #ffffff; }
+.contents .content a:hover { color: #444444; }
+.contents .content a:active { color: #444444; }

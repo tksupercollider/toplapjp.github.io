@@ -3,18 +3,18 @@ body {
 }
 
 a:link {
- color: #ff4444; 
+ color: #5555ff; 
  text-decoration: none;
 }
-a:visited { color: #ff4444; }
+a:visited { color: #5555ff; }
 a:hover {
   color: #666666; 
-  background:#c0dad8;
+  background:#cccccc;
 }
-a:active { color: #444444; }
+a:active { color: #ffffff; }
 
 ::selection {
-  background:#c0dad8;
+  background:#ccccccc;
 }
 p {
   word-wrap: break-word;
@@ -27,7 +27,7 @@ iframe {
 blockquote {
   margin-left: 0;
   padding: 0 1em;
-  color: #6a737d;
+  color: #666666;
   border-left: 0.25em solid #dfe2e5;
 }
 
