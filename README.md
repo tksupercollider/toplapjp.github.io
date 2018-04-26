@@ -7,6 +7,8 @@ development repository for : [http://toplap.jp/](http://toplap.jp/)
 
 ```make server```
 
+then view browser at port 8080.
+
 ## build
 
 ```make build```
