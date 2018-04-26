@@ -2,6 +2,11 @@
 
 development repository for : [http://toplap.jp/](http://toplap.jp/)
 
+
+## boot server
+
+```make server```
+
 ## build
 
 ```make build```
