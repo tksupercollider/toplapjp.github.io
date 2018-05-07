@@ -10,7 +10,6 @@
     "production": "npm run clean && NODE_ENV=production webpack -p",
     "watch": "npm run start",
     "start": "npm run build && npm run server",
-    "deploy": "git subtree push --prefix docs/ origin gh-pages",
     "server": "webpack-dev-server --content-base docs --historyApiFallback true"
   },
   "author": "",
@@ -56,6 +55,6 @@
     "style-loader": "^0.16.1",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.4.2",
-    "yaml-loader": "^0.4.0"
+    "yaml-loader": "^0.5.0"
   }
 }

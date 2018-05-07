@@ -59,13 +59,18 @@ module.exports = {
         test: /\.json$/,
         loader: "json-loader" 
       },
+      // {
+      //   test: /\.(yml|yaml)$/,
+      //   use: [
+      //     'file-loader',
+      //     'json-loader',         
+      //     'yaml-loader'
+      //   ]
+      // },
       {
-        test: /\.yaml$/,
-        use: [
-          'file-loader',
-          'json-loader',         
-          'yaml-loader'
-        ]
+      test: /\.(yml|yaml)$/,
+      // include: path.resolve('data'),
+      loader: 'yaml-loader',
       },
       {
         test: /\.scss$/,

@@ -1,0 +1,18 @@
+title: About
+content: |
+  TOPLAPは2004年に発足した、ライヴコーディングの開発・推進のための組織です。
+
+  ライヴコーディングは電子音楽及び映像における新しい潮流で、おもしろい方向に向かいつつあります。ライヴコーダーはソフトウェアの中身を見せ、書き換えながら、音楽と/または映像を即興的に産み出します。全てのコーディングは面白いので投影されます。ライヴコーディングは音楽の多岐にわたって使われており、[アルゴレイヴ](http://algorave.com/)と同様、コンサートホールや深夜のジャズバーでも見かけるようになってきました。コードを記述して映像を作るビデオ専門のライヴコーダーもかなり増えてきており、多くの場合、音と映像の両方で共感覚を経験する場を作り出す場を作り出すことができます。
+
+  ライヴコーディングは包摂的で、誰もがアクセスできる手法です。ライヴコーディングのための多くの環境はダウンロード可能、無料で使用でき、始めるための説明と使用例が付いていて、親切なオンラインのコミュニティもあり、問題にぶつかった時には助けてくれます。人気の高いライヴコーディング用のソフトウェアには、 [ChucK](http://chuck.cs.princeton.edu/)
+  、[Cyril](http://cyrilcode.com/)
+  、[Extempore](http://extempore.moso.com.au/)、[Fluxus](http://www.pawfal.org/fluxus/)
+  、[Impromptu](http://impromptu.moso.com.au/)
+  、[Overtone](http://overtone.github.com/)、そして [SuperCollider](http://supercollider.sourceforge.net/) といったものがあります。音楽的に繰り返されるパターンを手早く扱っていくための環境には、[ixi lang](http://www.ixi-audio.net/ixilang/)
+   と [TidalCycles](http://tidalcycles.org/) があります。[Sonic Pi](http://sonic-pi.net/) はアルゴレイヴで演奏するためと同様、音楽とコンピュータ・サイエンスの両方を授業で教えるためにも相応しいように設計されました。[Gibber](http://www.charlie-roberts.com/gibber/) や [Livecodelab](http://www.sketchpatch.net/livecodelab/index.html) のような、ウェブ上で動くとてもよくできた環境もあります。[Pure Data](http://puredata.info/) のような立派なグラフィカル・ツールでライヴコーディングを行なうライヴパッチングという手もあります。ロボットが活躍する [Al-Jazari](http://www.pawfal.org/dave/index.cgi?Projects/Al%20Jazari) なら、ゲームパッドでライヴコーディングすることが可能です。
+
+  より詳しい、最新のライヴコーディング環境などの一覧はこちらになります： [All Things Livecoding](https://github.com/toplap/awesome-livecoding/)
+
+  TOPLAPとライヴコーディングの歴史については私たちの[wiki](http://toplap.org/wiki/)を、ライヴコーディングの最新開発状況については私たちの[ブログ](http://toplap.org/)をご覧ください。ライヴコーディング関連の様々な最新情報は[こちら](https://github.com/toplap/awesome-livecoding/)へどうぞ。
+
+  原文： [https://toplap.org/about/](https://toplap.org/about/)
